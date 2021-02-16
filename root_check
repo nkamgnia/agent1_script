@@ -10,6 +10,6 @@ exit 1
  if [ `nproc` -eq 1 ]
  then
 echo "this server is very small"
-
+exite 99
 exite 2
  fi
